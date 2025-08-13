@@ -1,0 +1,61 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Quicksand';
+}
+
+body {
+    background-color: #F2EDD1;
+}
+
+h1,
+h2,
+h3,
+address,
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+}
+
+h2 {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+h3{
+   font-size: clamp(0.5rem, 1.5vw, 1rem);
+   font-weight: 600;
+}
+
+.biodata-card {
+    width: 35%;
+    margin: 150px auto;
+    background-color: #E7D4B5;
+    border: #BC9F8B;
+    border-style: double;
+}
+
+.desc {
+    font-style: italic;
+}
+
+.photo-container {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #BC9F8B;
+}
+
+.profile-photo {
+    display: inline-block;
+    max-width: 23%;
+    border: #BCCCDC;
+    border-style: double;
+}
+
+.link {
+    display: block;
+    text-align: center;
+}
